@@ -22,7 +22,7 @@ while data != '-1':
         data = input('Enter a data point (-1 to stop input):')
         continue
     elif not integer.isdigit():
-        print('Error: Comma not followed by an integer:\n')
+        print('Error: Comma not followed by an integer\n')
         data = input('Enter a data point (-1 to stop input):')
         data_list = data.split(',')
         i = str(data_list[len(data_list) - 1])
